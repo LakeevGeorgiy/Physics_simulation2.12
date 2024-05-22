@@ -55,7 +55,7 @@ function plot() {
         title: 'График интенсивности',
 		autosize: true,
 		xaxis: {
-			title: 'phi',
+			title: 'phi (Угол дифракции)',
 		},
 		yaxis: {
 			title: 'I, Bт/м^2',
