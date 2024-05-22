@@ -38,9 +38,7 @@ function plot() {
     let end = Math.PI / 6;
     let step = (end - start) / 1000;
 
-    console.log(start, end, step);
     for (let i = start; i <= end; i += step) {
-        console.log(i);
         let phi = i;
         x_coordinates[t] = phi;
         intensity_coordinates[t] = calculateIntensity(phi);
@@ -57,7 +55,7 @@ function plot() {
         title: 'График интенсивности',
 		autosize: true,
 		xaxis: {
-			title: 'sin (phi)',
+			title: 'phi',
 		},
 		yaxis: {
 			title: 'I, Bт/м^2',
