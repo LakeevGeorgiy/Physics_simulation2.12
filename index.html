@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание после лекции</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <h1>Интерференционная картина колец Ньютона</h1>
+    <div>
+        <label>Количество щелей<label> 
+        <input value="4" class="input input-1" type="number" id="N_id">
+    </div>
+    <div>
+        <label>Ширина прозрачных щелей, м</label>
+        <input value="0.0001" class="input input-2" type="number" id="b_id"/>
+    </div>
+    <div>
+        <label>Период дифракционной решетки, м</label>
+        <input value="0.0005" class="input input-3" type="number" id="d_id" />
+    </div>
+    <div>
+        <label>Длина волны, нм</label>
+        <input value="546" class="input input-4" type="number" id="wave_length_id" />
+    </div>
+    <div>
+        <button id="button_id">Построить</button>
+    </div>
+    <div id="tester2"></div>
+    <canvas width="1000" height="600" id="canvas_id">
+        
+    <script src="https://cdn.plot.ly/plotly-2.29.1.min.js" charset="utf-8"></script>
+    <script src="main.js"></script>
+</body>
+</html>
